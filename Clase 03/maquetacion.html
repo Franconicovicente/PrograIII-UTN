@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetacion</title>
+
+    <!-- Fuente externas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+    <style>
+        /* Unidades absolutas y relativas
+
+UDS ABSOLUTAS ///////////
+px. Unidad mas comun en el diseño web. Es una medida fija que representa un solo punto en la pantalla
+
+UDS RELATIVAS //////////
+rem (tamaño fuente): Siempre se refiere al tamaño de la fuente del elemento raiz <html>. Por defecto el tamaño del texto es 16px
+
+%. Los porcentajes se calculan en relacion con el tamaño del contenedor padre
+
+vw. Viewport width. Se ajusta al ancho total de la ventana grafica, de la pantalla (view port puerto visual)
+Representa el 1% del ancho visual disponible
+
+vh. Viewport height. Igual al vw pero basado en el alto de la ventana grafica
+
+Cuando usar uds absolutas y relativas?
+
+- Uds absolutas como px cuando necesitamos un tamaño fijo independientemente de la flexibilidad del diseño
+
+- Uds relaetivas como rem, % o vw-vh: cuando queremos diseños responsivos y adaptativos, ya que se ajustan en funcion del contenedor (%) o de la ventana gráfica (vw-vh)
+*/
+        * {
+            font-family: "Orbitron", sans-serif;
+        }
+
+        .logo {
+            width: 35px;
+        }
+
+
+
+        header {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav {
+            width: 60%;
+        }
+
+        header ul {
+            display: flex;
+            padding-left: 0;
+            list-style-type: none;
+            justify-content: space-around;
+            gap: 15px;
+            font-size: 12px;
+            font-weight: 400;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Encabezado -->
+    <header>
+
+        <div class="logo-container">
+            <img class="logo" src="https://cdn-icons-png.flaticon.com/256/0/747.png" alt="logo manzana">
+        </div>
+
+        <nav>
+            <ul>
+                <li>Store</li>
+                <li>Mac</li>
+                <li>iPad</li>
+                <li>iPhone</li>
+                <li>Watch</li>
+                <li>Vision</li>
+                <li>AirPods</li>
+                <li>TV & Home</li>
+                <li>Entertainment</li>
+            </ul>
+        </nav>
+
+        <div>
+            <img class="logo" src="https://cdn-icons-png.flaticon.com/256/25/25313.png" alt="icono lupa">
+        </div>
+
+    </header>
+
+
+
+    <!-- Seccion principal <main> -->
+    <main>
+        <section></section>
+    </main>
+
+
+
+    <!-- Pie de pagina -->
+    <footer>
+
+    </footer>
+</body>
+
+</html>
