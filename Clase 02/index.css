@@ -99,7 +99,7 @@ p {
     color: var(--color-fuente);
     padding: 10px 20px;
     cursor: pointer;
-    border-color: gray;
+    border-color: var(--color-fuente);
       
      /* opcional para que se vean más modernos */
 }
