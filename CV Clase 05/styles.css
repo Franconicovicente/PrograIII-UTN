@@ -1,0 +1,171 @@
+
+:root {
+    /* Colores */
+    --azul-aside: #cde0ef;
+    --azul-titulo: #122c74;
+    --color-texto: #010101;
+    --background-tiza: #f2f2f2;
+    --background-body: #dad9d8;
+
+    /* Sombras */
+    --shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Reset / Base */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.6rem; /* equivale a 16px */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background-body);
+    line-height: 1.5;
+    color: var(--color-texto);
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* usa el mismo color del texto */
+}
+
+p {
+    margin: 2.2rem 0;   
+}
+
+img {
+    width: 80%;
+}
+
+strong {
+    display: block;
+}
+
+h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    padding: 0.5rem 0 1.7rem 0;
+}
+
+h3 {
+    margin-top: 1rem;
+}
+
+h1, h2 {
+    color: var(--azul-titulo);
+}
+
+hr {
+    color: var(--azul-titulo);
+    width: 100%;
+    margin-top: 2rem;
+}
+
+li {
+    padding-left: 1rem; 
+    margin-left: 3rem;
+}
+
+
+figure {
+    text-align: center;
+}
+
+ion-icon {
+    margin-right: 0.5rem;
+    font-size: 2.2rem;
+    vertical-align: middle;
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1.5rem auto;
+    max-width: 210mm;
+    min-height: 297mm;
+    box-shadow: var(--shadow);
+}
+
+/* ASIDE */
+main > aside {
+    flex: 0 0 35%;
+    background-color: var(--azul-aside);
+    padding: 0 2rem;
+}
+
+aside > * {
+    margin: 3rem 0;
+}
+
+.aside-foto img {
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    border: 6px solid white;
+}
+
+.aside-contact h3, .aside-info_skills h3 {
+    text-transform: uppercase;
+    color: var(--azul-titulo);
+    margin-bottom: 1rem;
+}
+
+.contact li {
+    padding: 0.4rem 0;
+    list-style: none;
+}
+
+.contact li {
+    margin-left: 2.3rem;
+}
+
+.aside-info_skills li {
+    margin-left: 4.5rem;
+    padding: 0.3rem 0;
+}
+
+/* SECCIÓN INFO */
+
+.content-right {
+    flex: 0 0 65%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-tiza);
+}
+
+.section-presentation {
+    text-align: center;
+}
+
+
+article > p {
+    margin-top: 0;
+}
+
+.section-presentation,
+.section-info {
+    width: 90%;
+}
+
+.section-info > p {
+    margin: 0;
+}
+
+.title-article {
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+
+
+
