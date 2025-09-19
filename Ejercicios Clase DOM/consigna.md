@@ -54,14 +54,16 @@ console.log(capitalizarPalabras("hola mundo desde javascript")); // Resultado: "
 
 // 4. Usando find: Encontrar el producto con id 3
 
-// 5. Usando reduce: Calcular el valor total del inventario (precio \* stock) 9. Estudiantes y Calificaciones
-const estudiantes = [
-{ id: 1, nombre: 'Ana', edad: 20, calificaciones: [8, 9, 7, 8] },
-{ id: 2, nombre: 'Carlos', edad: 22, calificaciones: [6, 7, 8, 7] },
-{ id: 3, nombre: 'María', edad: 21, calificaciones: [9, 9, 8, 10] },
-{ id: 4, nombre: 'Juan', edad: 19, calificaciones: [7, 6, 5, 8] }
-];
-// 1. Usando forEach: Mostrar nombre y edad de cada estudiante
+// 5. Usando reduce: Calcular el valor total del inventario (precio\*stock)
+
+9. Estudiantes y Calificaciones
+   const estudiantes = [
+   { id: 1, nombre: 'Ana', edad: 20, calificaciones: [8, 9, 7, 8] },
+   { id: 2, nombre: 'Carlos', edad: 22, calificaciones: [6, 7, 8, 7] },
+   { id: 3, nombre: 'María', edad: 21, calificaciones: [9, 9, 8, 10] },
+   { id: 4, nombre: 'Juan', edad: 19, calificaciones: [7, 6, 5, 8] }
+   ];
+   // 1. Usando forEach: Mostrar nombre y edad de cada estudiante
 
 // 2. Usando map: Crear array de objetos con nombre y promedio de calificaciones
 
