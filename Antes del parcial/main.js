@@ -65,10 +65,6 @@ let barraBusqueda = document.getElementById("barraBusqueda");
 barraBusqueda.addEventListener("keyup", function () {
   let valorBusqueda = barraBusqueda.value;
   console.log(valorBusqueda);
-  /* funcion flecha con multiples argumentos
-    let productosFiltrados = productosTienda.filter(producto => {
-        return producto.nombre.includes(valorBusqueda);
-        })*/
   let productosFiltrados = productosTienda.filter((producto) =>
     producto.nombre.includes(valorBusqueda)
   );
@@ -104,11 +100,11 @@ mostrarProductos(productosTienda);
 
 function agregarACarrito(id) {
   let productoSeleccionado = productosTienda.find(
-    (producto) => producto.id == id
+    (producto) => producto.id === id
   );
   //console.log(productoSeleccionado);
   carrito.push(productoSeleccionado);
-  console.log(carrito);
+  console.log(carrito + "ACA");
   mostrarCarrito();
 }
 
